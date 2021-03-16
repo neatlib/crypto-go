@@ -1,5 +1,5 @@
 .PHONY: docs
-REPO:=github.com/neatio-project/go-crypto
+REPO:=github.com/neatlib/crypto-go
 
 docs:
 	@go get github.com/davecheney/godoc2md

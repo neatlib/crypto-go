@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/neatio-project/ed25519"
-	data "github.com/neatio-project/go-data"
+	data "github.com/neatlib/data-go"
+	"github.com/neatlib/ed25519-go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

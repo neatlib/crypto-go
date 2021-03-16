@@ -7,10 +7,10 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/neatio-project/bls"
-	. "github.com/neatio-project/go-common"
-	"github.com/neatio-project/go-data"
-	"github.com/neatio-project/go-wire"
+	"github.com/neatlib/bls-go"
+	. "github.com/neatlib/common-go"
+	"github.com/neatlib/data-go"
+	"github.com/neatlib/wire-go"
 )
 
 // Signature is a part of Txs and consensus Votes.

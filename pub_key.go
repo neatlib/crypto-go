@@ -5,13 +5,13 @@ import (
 	"crypto/sha256"
 
 	secp256k1 "github.com/btcsuite/btcd/btcec"
-	"github.com/neatio-project/bls"
-	"github.com/neatio-project/ed25519"
-	"github.com/neatio-project/ed25519/extra25519"
-	. "github.com/neatio-project/go-common"
-	"github.com/neatio-project/go-data"
-	"github.com/neatio-project/go-wire"
-	ethcrypto "github.com/neatio-project/neatio/crypto"
+	ethcrypto "github.com/neatlab/neatio/crypto"
+	"github.com/neatlib/bls-go"
+	. "github.com/neatlib/common-go"
+	"github.com/neatlib/data-go"
+	"github.com/neatlib/ed25519-go"
+	"github.com/neatlib/ed25519-go/extra25519"
+	"github.com/neatlib/wire-go"
 	"golang.org/x/crypto/ripemd160"
 )
 
