@@ -4,7 +4,7 @@ import (
 	"bytes"
 
 	secp256k1 "github.com/btcsuite/btcd/btcec"
-	ethcrypto "github.com/neatlab/neatio/crypto"
+	ethcrypto "github.com/neatlab/neatio/utilities/crypto"
 	"github.com/neatlib/bls-go"
 	. "github.com/neatlib/common-go"
 	"github.com/neatlib/data-go"
